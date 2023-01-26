@@ -1,0 +1,25 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+a{
+    font-size: 20px !important;
+    width: 400px;
+    border-radius: 30px !important;
+    color: azure;
+}
+.heading{
+    font-size: 40px;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 0px;
+}
+.copy_right_footer{
+font-size: 20px;
+position: fixed;
+bottom: 0%;
+background-color: white;
+width: 100%;
+text-align: center;
+line-height: 3;
+}
