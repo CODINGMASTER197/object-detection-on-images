@@ -24,3 +24,7 @@ function gotresults(){
     console.log(results);
     objects = results;
 }
+
+function draw(){
+    image(img, 0, 0, 380, 380);
+}
