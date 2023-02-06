@@ -1,0 +1,23 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+#status, #number_of_objects{
+    font-size: 18px;
+   }
+canvas{
+    border-radius: 10px;
+    animation-name: surya;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 30px;
+}
+@keyframes surya{
+    from{box-shadow: 10px 10px 10px red;}
+	to{box-shadow: 10px 10px 10px yellow;}
+}
